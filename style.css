@@ -1,0 +1,40 @@
+:root{
+    --primaryc: #1c1c2b;
+    --outlinec:#2b292c; 
+    --textc:white;
+    --textsecondary: #df1233;
+}
+
+body{
+    background-color: var(--primaryc);
+    color: var(--textc);
+}
+
+.test{
+    border: 3px solid var(--outlinec);
+}
+
+.customnav{
+    background-color: var(--primaryc) !important; 
+}
+
+.hero img{
+    width: 100%;
+}
+
+.highlight{
+    color: var(--textsecondary);
+    font-weight: bold;
+}
+
+.cardimage img{
+    width: 100%;
+}
+
+.moreinfo{
+    display: block;
+}
+
+.highlightedbar{
+    background-color: var(--outlinec);
+}
